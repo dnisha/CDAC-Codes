@@ -1,0 +1,24 @@
+package Day5;
+
+public class ForEachMatrix {
+
+	public static void main(String[] args) {
+		
+		   int r[][]= {{22},
+	                {3,45},
+	                {30,40,50}};
+	//traversing array
+	//foreach
+	for(int y[]:r)
+	{
+	 for(int k:y)
+	 {
+	     System.out.print("   "+ k);
+
+	 }
+	 System.out.println();
+	}
+
+	}
+
+}

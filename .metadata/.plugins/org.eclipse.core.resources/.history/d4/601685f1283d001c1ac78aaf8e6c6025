@@ -1,0 +1,19 @@
+package ArrList;
+
+import java.util.ArrayList;
+
+public class ArrLst {
+
+	public static void main(String[] args) {
+		
+		ArrayList<String> l1 = new ArrayList<String>();
+		
+		l1.add("Deepak");
+		l1.add("rohan");
+		l1.add("alprit");
+
+l1.clear();
+System.out.println(l1);
+	}
+
+}

@@ -1,0 +1,16 @@
+package ArrList;
+
+import Interface.inter1;
+
+public class Student {
+	int id;
+	String name;
+	float slry;
+	
+	  Student(int id,String name,float slry) {
+		this.id = id;
+		this.name = name;
+		this.slry = slry;
+	}
+
+}

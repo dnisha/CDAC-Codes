@@ -1,0 +1,13 @@
+package Test;
+
+import Interface.inter1;
+
+ 
+class Prog 
+{
+    public static void main(String args[])
+    {
+      float a=(int)1000.23f;
+      System.out.println(a);
+    }
+}

@@ -1,0 +1,44 @@
+package JavaIOBasic;
+
+import java.io.*;
+
+import Interface.inter1;
+public class Prog3 {
+static int a;
+	public static void main(String[] args) throws IOException {
+	
+	File infile = new File("a1.txt");
+	File ofile = new File("a2.txt");
+	
+FileOutputStream w1 = new FileOutputStream(infile);
+FileInputStream r = new FileInputStream(infile);
+FileOutputStream w = new FileOutputStream(ofile);
+
+
+System.out.println("Write Content : ");
+
+do {
+	w1.write((char)a);
+}while(a != 'm');
+	
+
+	
+w1.close();
+
+
+
+int i;
+
+while((i= r.read()) != -1) {
+	
+
+	w.write((char)i);
+	
+}
+      System.out.println("Data Copied Sucessfully.......!! ");
+   
+      
+   
+
+}
+}

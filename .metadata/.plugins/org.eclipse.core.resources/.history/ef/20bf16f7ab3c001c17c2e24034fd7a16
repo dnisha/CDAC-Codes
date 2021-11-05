@@ -1,0 +1,52 @@
+package Arrays;
+
+import java.util.ArrayList;
+
+import javax.xml.validation.Validator;
+
+public class TargetVal {
+
+	static 	ArrayList<Integer> list = new ArrayList<>();
+static void Val(int arr[], int index,int target) {
+	
+		if(arr.length == index) {
+			return ;
+		}
+		
+		if (target == arr[index]) {
+		
+			list.add(index);
+			
+		}
+		Val(arr, index+1,target);
+
+			
+		
+	}
+
+static ArrayList<Integer> Val(int arr[], int index,int target,static 	ArrayList<Integer> list) {
+	
+	if(arr.length == index) {
+		return list;
+	}
+	
+	if (target == arr[index]) {
+	
+		list.add(index);
+		
+	}
+	Val(arr, index+1,target);
+
+		
+	
+}
+
+	public static void main(String[] args) {
+		int arr[] = {3,2,1,18,15,18,19};
+	
+		ArrayList<Integer> list1  =  Val(arr,0,18,list);
+		
+		
+		System.out.println(list1);
+	}
+}
