@@ -32,8 +32,14 @@ MyCompare m = new MyCompare();
 		
 		
 		System.out.println(t1);
+		System.out.println(		t1.poll());
+		System.out.println(		t1.poll());
+		System.out.println(		t1.poll());
+		System.out.println(		t1.poll());
+
 	
 	
+}
 }
 
 class MyCompare implements Comparator<Ticket>{
@@ -45,3 +51,4 @@ class MyCompare implements Comparator<Ticket>{
 	}
 	
 }
+
