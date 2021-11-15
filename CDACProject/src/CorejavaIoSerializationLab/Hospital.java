@@ -40,6 +40,7 @@ public class Hospital {
 			
 		}
 		else {
+			
 			pnewData o1 =new pnewData(fo);
 			o1.writeObject(p1);
 		}
