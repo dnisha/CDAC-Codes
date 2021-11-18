@@ -26,9 +26,9 @@ MyCompare m = new MyCompare();
 		PriorityQueue<Ticket> t1 = new PriorityQueue<Ticket>(m);
 		
 		t1.add(new Ticket(1,101,"Payment Stuck"));
-		t1.add(new Ticket(4,105,"Payment Stuck"));
-		t1.add(new Ticket(2,106,"Payment Stuck"));
-		t1.add(new Ticket(3,108,"Payment Stuck"));
+		t1.add(new Ticket(4,105,"No payment"));
+		t1.add(new Ticket(2,106,"Ticket Stuck"));
+		t1.add(new Ticket(3,108,"Payment Fail"));
 		
 		
 		System.out.println(t1);

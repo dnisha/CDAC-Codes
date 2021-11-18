@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar"/>
-    <fullyQualifiedTypeName name="javax.xml.validation.Validator"/>
     <fullyQualifiedTypeName name="Arrays.TargetVal"/>
     <fullyQualifiedTypeName name="java.util.random.RandomGenerator.ArbitrarilyJumpableGenerator"/>
     <fullyQualifiedTypeName name="ArrList.SortByNameThenMarks"/>
@@ -58,6 +56,8 @@
     <fullyQualifiedTypeName name="javax.naming.directory.NoSuchAttributeException"/>
     <fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
     <fullyQualifiedTypeName name="javax.xml.transform.Source"/>
-    <fullyQualifiedTypeName name="Interface.inter1"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="Interface.inter1"/>
 </qualifiedTypeNameHistroy>
